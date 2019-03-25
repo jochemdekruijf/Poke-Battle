@@ -1,0 +1,29 @@
+body{
+
+}
+
+#background{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    z-index: 0;
+}
+
+#pikachu{
+    width:60px;
+    height:80px;
+    position: absolute;
+    right: 43%;
+    top: 40%;
+    z-index: 1;
+}
+#charmelon{
+    width:60px;
+    height:80px;
+    position: absolute;
+    left: 40%;
+    top: 52%;
+    z-index: 1;
+}
