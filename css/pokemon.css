@@ -1,19 +1,21 @@
-
 @font-face {
     font-family: pokemonFont;
-    src: url(../PokemonFont.ttf) format('truetype');
+    src: url(PokemonFont.ttf) format('truetype');
 }
 
 body{
-    /*font-family: 'Press Start 2P', cursive;*/
     font-family: pokemonFont;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 #description_text{
-    font-size: 6;
+    font-size: 7px;
     position: absolute;
     left:45% ;
-    top: 45%;
+    top: 37%;
     z-index: 5;
 
 }
@@ -26,10 +28,10 @@ body{
 
 }
 
-#background{
+#battle{
     position: absolute;
-    left:44% ;
-    top: 30%;
+    left:44.2% ;
+    top: 21.5%;
     border-radius: 3px;
     width: 187px;
     height: 163px;
@@ -41,7 +43,7 @@ body{
     height:50px;
     position: absolute;
     left: 52%;
-    top: 31%;
+    top: 23%;
     z-index: 3;
 }
 #charmelon{
@@ -49,7 +51,7 @@ body{
     height:50px;
     position: absolute;
     left: 45%;
-    top: 38%;
+    top: 30%;
     z-index: 3;
 }
 
