@@ -1,29 +1,63 @@
+
+@font-face {
+    font-family: pokemonFont;
+    src: url(../PokemonFont.ttf) format('truetype');
+}
+
 body{
+    /*font-family: 'Press Start 2P', cursive;*/
+    font-family: pokemonFont;
+}
+
+#description_text{
+    font-size: 6;
+    position: absolute;
+    left:45% ;
+    top: 45%;
+    z-index: 5;
+
+}
+
+#pokemon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
 
 }
 
 #background{
-    width: 400px;
-    height: 300px;
     position: absolute;
-    left: 35%;
-    top: 35%;
-    z-index: 0;
+    left:44% ;
+    top: 30%;
+    border-radius: 3px;
+    width: 187px;
+    height: 163px;
+    z-index: 2;
 }
 
 #pikachu{
-    width:60px;
-    height:80px;
+    width:40px;
+    height:50px;
     position: absolute;
-    right: 43%;
-    top: 40%;
-    z-index: 1;
+    left: 52%;
+    top: 31%;
+    z-index: 3;
 }
 #charmelon{
-    width:60px;
-    height:80px;
+    width:40px;
+    height:50px;
     position: absolute;
-    left: 40%;
-    top: 52%;
-    z-index: 1;
+    left: 45%;
+    top: 38%;
+    z-index: 3;
+}
+
+#gameboy{
+    width: 519px;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
 }
