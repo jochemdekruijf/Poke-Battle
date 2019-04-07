@@ -8,6 +8,8 @@ class Pokemon {
   public $weakness;
   public $oneliner;
   public $resistance;
+ 
+
 
    public function __construct($name, $hitpoints, $energyType, $weakness,$oneliner,$resistance)
     {

@@ -31,7 +31,7 @@ body{
 #battle{
     position: absolute;
     left:44.2% ;
-    top: 21.5%;
+    top: 21.3%;
     border-radius: 3px;
     width: 187px;
     height: 163px;
@@ -62,4 +62,27 @@ body{
     margin-left: auto;
     margin-right: auto;
     z-index: 0;
+}
+
+.invisible{
+   width: 41px;
+   height: 41px;
+   border-radius: 20px;
+   background-color: #aa114e;
+   border: none;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+   
+}
+#a{
+  position: absolute;
+  left: 57%;
+  top:56.5%;
+
+}
+
+#b{
+  position: absolute;
+  left: 53.5%;
+  top:59.5%;
 }
