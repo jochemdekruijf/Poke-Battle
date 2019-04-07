@@ -12,7 +12,7 @@ $pikachu->resistance = new resistance("typeR",10);
 $pikachu->weakness = new weakness("typeW",2);
 
 
-$pokemon2 =  new Pokemon('pokemon2', '100', 'fire', 'water',"pokemon2Line","40");
+$pokemon2 =  new Pokemon('pokemon2', '100', 'fire', 'earth',"pokemon2Line","40");
 $pokemon2->attack = new Attack("attack 1",20);
 $pokemon2->resistance = new resistance("typeR",10);
 $pokemon2->weakness = new weakness("typeW",2);
