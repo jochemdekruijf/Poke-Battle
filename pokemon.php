@@ -29,31 +29,14 @@ class Pokemon {
     {
         echo '<h2>' . $this->oneliner . '</h2>';
     }
-   
 
-}
+     public function receiveDamage($hp,$damage,$target)
+      {
+       
+       $taget->hitpoints = $hp - $damage;
 
-
-//    class Avenger extends Superhero {
-//
-//        public $team = 'Avengers';
-//
-//        public function __construct($name, $gender, $oneliner)
-//       {
-//         parent::__construct($name, $gender, $this->team, $oneliner);
-//       }
-//
-//    }
-
-
-
-
-
-
-
-
-
-
+    }
+ }
 
 
  ?>
