@@ -16,10 +16,12 @@ $pokemon2 =  new Pokemon('pokemon2', '100', 'fire', 'earth',"pokemon2Line","40")
 $pokemon2->attack = new Attack("attack 1",20);
 $pokemon2->resistance = new resistance("typeR",10);
 $pokemon2->weakness = new weakness("typeW",2);
+
 echo "<pre>";
  var_dump($pikachu);
  var_dump($pokemon2);
 echo "</pre>";
+fb9889b7118dd001e105be2b4f3
 
 
 
