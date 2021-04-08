@@ -17,8 +17,8 @@ $pokemon2->attack = new Attack("attack 1",20);
 $pokemon2->resistance = new resistance("typeR",10);
 $pokemon2->weakness = new weakness("typeW",2);
 echo "<pre>";
-var_dump($pikachu);
-var_dump($pokemon2);
+ var_dump($pikachu);
+ var_dump($pokemon2);
 echo "</pre>";
 
 
@@ -33,7 +33,7 @@ echo "</pre>";
 	<meta charset="utf-8">
 </head>
 <body>
-       <div id="pokemon">
+<!--        <div id="pokemon">
            <img src="img/pikachu.gif" id="pikachu" alt="pikachu">
            <img src="img/charmeleon-b.gif" id="charmelon" alt="charmeleon">
             <img src="img/Battle.png" id="battle" alt="background">
@@ -44,6 +44,6 @@ echo "</pre>";
            </p>
            <button class="invisible" id="a"></button>
            <button class="invisible" id="b"></button>
-        </div>
+        </div> -->
 </body>
 </html>
